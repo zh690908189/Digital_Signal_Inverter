@@ -1,0 +1,161 @@
+(ExpressProject "Digital_Signal_Inverter"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "d:\cadence_lib\sch_lib.olb"
+        (Type "Schematic Library"))
+      (File "d:\cadence_lib\stm32.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\digital_signal_inverter.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\digital_signal_inverter.dsn")
+      (Path "Design Resources" ".\digital_signal_inverter.dsn"
+         "Digital_Signal_Inverter")
+      (Path "Design Resources" ".\digital_signal_inverter.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "d:\cadence_lib\sch_lib.olb")
+      (Path "Design Resources" "Library" "d:\cadence_lib\stm32.olb")
+      (Select "Design Resources" ".\digital_signal_inverter.dsn" "Design Cache"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1655 52 511")
+        (Scroll "-17 90")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\SOHOTKING_CAD\DIGITAL_SIGNAL_INVERTER\SCH\DIGITAL_SIGNAL_INVERTER.DSN")
+      (Schematic "Digital_Signal_Inverter")
+      (Page "01:Main")))
+  (PartMRUSelector
+    (SC662K-3.3V
+      (FullPartName "SC662K-3.3V.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (MC34063A
+      (FullPartName "MC34063A.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (MC34063A/SO
+      (FullPartName "MC34063A/SO.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (OPA2188AIDR
+      (FullPartName "OPA2188AIDR.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "1"))
+    (OPA2111/SO
+      (FullPartName "OPA2111/SO.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (MCP4725
+      (FullPartName "MCP4725.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    ("Tantalum CASE-B"
+      (FullPartName "Tantalum CASE-B.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (C_elect
+      (FullPartName "C_elect.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR POL"
+      (FullPartName "CAPACITOR POL.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C0402
+      (FullPartName "C0402.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (XTAL
+      (FullPartName "XTAL.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BAT54C
+      (FullPartName "BAT54C.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (10CTQ150/TO
+      (FullPartName "10CTQ150/TO.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_DUAL_CK_JAA
+      (FullPartName "DIODE_DUAL_CK_JAA.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BEAD0402
+      (FullPartName "BEAD0402.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (XM/SM
+      (FullPartName "XM/SM.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (XL/SM
+      (FullPartName "XL/SM.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R0402
+      (FullPartName "R0402.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (CSTCE8M00G15C99-R0
+      (FullPartName "CSTCE8M00G15C99-R0.Normal")
+      (LibraryName "D:\CADENCE_LIB\SCH_LIB.OLB")
+      (DeviceIndex "0"))
+    (OSC6/SM
+      (FullPartName "OSC6/SM.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\Cadence_SPB_17.2-2016\tools\capture\library")
+  (MPSSessionName "sohotking"))
